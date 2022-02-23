@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	background-color: #ccd1d9;
+}
+nav{
+	text-align: right;
+	background-color: #2A2F33 ;
+}
+.menu{
+	padding:20px;
+}
+.menu a{
+	color: grey;
+	text-decoration: none;
+}
+.menu .linkler{
+	margin-right: 30px;
+	margin-left: 30px;
+	transition-property: color;
+	transition-duration: 0.3s;
+
+}
+
+.menu #marka{
+	font-style: italic;
+	float: left;
+}
+.menu .linkler:hover{
+	color: white;
+}
+/* hakkımda sayfasi*/
+.container{
+	margin-top: 20px;
+	width: 80%;
+	margin: auto;
+}
+.ikon{
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
